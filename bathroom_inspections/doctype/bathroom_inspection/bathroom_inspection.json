@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
+  "tab_details",
   "contact",
   "phone",
   "email",
@@ -109,9 +110,14 @@
    "hidden": 1
   },
   {
-   "fieldname": "section_demolition",
+   "fieldname": "tab_details",
    "fieldtype": "Tab Break",
    "label": "Details"
+  },
+  {
+   "fieldname": "section_demolition",
+   "fieldtype": "Tab Break",
+   "label": "Demolition"
   },
   {
    "fieldname": "section_demolition_section",
