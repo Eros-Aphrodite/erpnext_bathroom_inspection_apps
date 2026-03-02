@@ -2,6 +2,19 @@
 
 Bathroom inspection management
 
+### Goals
+
+- Provide a **single, easy-to-complete Bathroom Inspection form** for bathroom renovation scope checks
+- Keep data entry **fast and consistent** across projects (checkboxes, notes, and photo attachments)
+- Organize inspection items by **trade tabs** (e.g. Demolition, Plumbing, Electrical, etc.)
+- Track basic workflow metadata: **status**, **responsible user**, and **customer/contact details**
+
+### What’s included
+
+- `Bathroom Inspection` DocType with a tabbed checklist-style layout
+- Photo capture via `Attach Image` fields
+- Desk route shortcut to open the DocType at `/app/bathroom-inspection`
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
