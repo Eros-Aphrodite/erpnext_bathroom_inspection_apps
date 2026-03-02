@@ -15,6 +15,7 @@
   "tags",
   "status",
   "section_demolition",
+  "section_demolition_section",
   "dem_selection_label",
   "dem_remove_shower_fittings_builder",
   "dem_remove_shower_fittings_owner",
@@ -110,6 +111,11 @@
   {
    "fieldname": "section_demolition",
    "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_demolition_section",
+   "fieldtype": "Section Break",
    "label": "Demolition"
   },
   {
