@@ -108,6 +108,11 @@
    "options": "BINS-.YYYY.-"
   },
   {
+   "fieldname": "section_demolition",
+   "fieldtype": "Tab Break",
+   "label": "Demolition"
+  },
+  {
    "fieldname": "contact",
    "fieldtype": "Data",
    "label": "Contact"
@@ -146,11 +151,6 @@
    "in_list_view": 1,
    "label": "Status",
    "options": "New\nIn Progress\nDone"
-  },
-  {
-   "fieldname": "section_demolition",
-   "fieldtype": "Section Break",
-   "label": "Demolition"
   },
   {
    "fieldname": "dem_selection_label",
@@ -551,9 +551,21 @@
    "label": "Plumbing"
   },
   {
+   "fieldname": "plumbing_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
+  },
+  {
    "fieldname": "tab_electrical",
    "fieldtype": "Tab Break",
    "label": "Electrical"
+  },
+  {
+   "fieldname": "electrical_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
   },
   {
    "fieldname": "tab_carpentry",
@@ -561,9 +573,21 @@
    "label": "Carpentry"
   },
   {
+   "fieldname": "carpentry_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
+  },
+  {
    "fieldname": "tab_plastering",
    "fieldtype": "Tab Break",
    "label": "Plastering"
+  },
+  {
+   "fieldname": "plastering_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
   },
   {
    "fieldname": "tab_waterproofing",
@@ -571,9 +595,21 @@
    "label": "Waterproofing"
   },
   {
+   "fieldname": "waterproofing_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
+  },
+  {
    "fieldname": "tab_tiler",
    "fieldtype": "Tab Break",
    "label": "Tiler"
+  },
+  {
+   "fieldname": "tiler_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
   },
   {
    "fieldname": "tab_painter",
@@ -581,9 +617,21 @@
    "label": "Painter"
   },
   {
+   "fieldname": "painter_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
+  },
+  {
    "fieldname": "tab_fixtures_bath_laundry",
    "fieldtype": "Tab Break",
    "label": "Fixtures Bath/Laundry"
+  },
+  {
+   "fieldname": "fixtures_bath_laundry_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
   },
   {
    "fieldname": "tab_glass_screen",
@@ -591,9 +639,21 @@
    "label": "Glass Screen"
   },
   {
+   "fieldname": "glass_screen_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
+  },
+  {
    "fieldname": "tab_photos",
    "fieldtype": "Tab Break",
    "label": "Photos"
+  },
+  {
+   "fieldname": "photos_tab_placeholder",
+   "fieldtype": "HTML",
+   "label": " ",
+   "options": "<div style=\"height: 1px\"></div>"
   }
  ],
  "grid_page_length": 50,
