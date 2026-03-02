@@ -622,13 +622,15 @@
   },
   {
    "fieldname": "pl_shower_selection_1",
-   "fieldtype": "Data",
-   "label": "Selection 1"
+   "fieldtype": "Select",
+   "label": "Selection 1",
+   "options": "Same Position\nMove Less 500\nMove Over 500\nDelete"
   },
   {
    "fieldname": "pl_shower_selection_2",
-   "fieldtype": "Data",
-   "label": "Selection 2"
+   "fieldtype": "Select",
+   "label": "Selection 2",
+   "options": "New Shower Head Single\nNew Shower Head Double\nNew Shower Double Taub Mix\nNew Shower Mixer\nNew Fittings colour"
   },
   {
    "fieldname": "pl_shower_note",
@@ -652,18 +654,21 @@
   },
   {
    "fieldname": "pl_bathtub_selection_1",
-   "fieldtype": "Data",
-   "label": "Selection 1"
+   "fieldtype": "Select",
+   "label": "Selection 1",
+   "options": "Same Position\nMove Less 500\nMove Over 500\nDelete\nReplace New\nReplace Free Standing\nNew Install Bathtub\nNew Install Bath-Spa"
   },
   {
    "fieldname": "pl_bathtub_selection_2",
-   "fieldtype": "Data",
-   "label": "Selection 2"
+   "fieldtype": "Select",
+   "label": "Selection 2",
+   "options": "Replace Existing\nReplace Freestanding\nInstall New Freestanding\nInstall New Bath-Spa\nInstall New Corner Bath\nInstall New in Bath"
   },
   {
    "fieldname": "pl_bathtub_selection_3",
-   "fieldtype": "Data",
-   "label": "Selection 3"
+   "fieldtype": "Select",
+   "label": "Selection 3",
+   "options": "New Spout & Mixer on Wall - Single Unit\nNew Spout Unit & Mixer Unit on Wall Separated\nNew Bathtub Faucet Floor Mounted\nNew Bathtub Spout & Double Tub - Separated"
   },
   {
    "fieldname": "pl_bathtub_note",
@@ -687,13 +692,15 @@
   },
   {
    "fieldname": "pl_toilet_selection",
-   "fieldtype": "Data",
-   "label": "Selection"
+   "fieldtype": "Select",
+   "label": "Selection",
+   "options": "Same Position\nMove Less 500\nMove Over 500\nDelete"
   },
   {
    "fieldname": "pl_toilet_work_selection",
-   "fieldtype": "Check",
-   "label": "Work Selection?"
+   "fieldtype": "Select",
+   "label": "Work Selection",
+   "options": "Close to Wall\nSkew\nIn Wall Unit\nDisable"
   },
   {
    "fieldname": "pl_toilet_note",
@@ -717,13 +724,15 @@
   },
   {
    "fieldname": "pl_vanity_selection_1",
-   "fieldtype": "Data",
-   "label": "Selection 1"
+   "fieldtype": "Select",
+   "label": "Selection 1",
+   "options": "Same Position\nMove Less 500\nMove Over 500\nDelete"
   },
   {
    "fieldname": "pl_vanity_selection_2",
-   "fieldtype": "Data",
-   "label": "Selection 2"
+   "fieldtype": "Select",
+   "label": "Selection 2",
+   "options": "New Standalone\nNew Wall Hang\nNew Mixer\nNew Spout & Mixer"
   },
   {
    "fieldname": "pl_vanity_selection_3",
