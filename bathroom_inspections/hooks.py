@@ -11,23 +11,21 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "bathroom_inspections",
-# 		"logo": "/assets/bathroom_inspections/logo.png",
-# 		"title": "Bathroom Inspections",
-# 		"route": "/bathroom_inspections",
-# 		"has_permission": "bathroom_inspections.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "bathroom_inspections",
+		"logo": "/assets/bathroom_inspections/images/bathroom-inspections-icon.png",
+		"title": "Bathroom Inspections",
+		"route": "/app/bathroom-inspection",
+		"description": "Bathroom inspection management",
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/bathroom_inspections/css/bathroom_inspections.css"
-# app_include_js = "/assets/bathroom_inspections/js/bathroom_inspections.js"
-
+app_include_css = "/assets/bathroom_inspections/css/bathroom_inspections.css"
 # include js, css files in header of web template
 # web_include_css = "/assets/bathroom_inspections/css/bathroom_inspections.css"
 # web_include_js = "/assets/bathroom_inspections/js/bathroom_inspections.js"

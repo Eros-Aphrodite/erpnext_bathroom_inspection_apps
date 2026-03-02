@@ -1,0 +1,39 @@
+/* Bathroom Inspections app icon - rounded corners on apps dashboard */
+.app-logo[app-name="bathroom_inspections"],
+.app-logo[app-name="bathroom_inspections"] img {
+	border-radius: 20px !important;
+	overflow: hidden;
+}
+
+/* Bathroom Inspection form - layout tweaks to feel closer to Odoo */
+
+/* Scope all rules to the Bathroom Inspection DocType page */
+.page-container[data-doctype="Bathroom Inspection"] .form-tabs {
+	/* Allow the tabs row to wrap instead of one long line */
+	flex-wrap: wrap;
+	row-gap: 0.25rem;
+}
+
+.page-container[data-doctype="Bathroom Inspection"] .form-tabs .nav-item {
+	margin-right: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.page-container[data-doctype="Bathroom Inspection"] .form-tabs .nav-link {
+	/* Slightly compact tab buttons, Odoo‑like notebook tabs */
+	padding: 6px 14px;
+}
+
+/* Give the main form more width and keep the sidebar narrow, like Odoo */
+.page-container[data-doctype="Bathroom Inspection"] .layout-main-section-wrapper {
+	max-width: 70%;
+}
+
+.page-container[data-doctype="Bathroom Inspection"] .layout-side-section {
+	max-width: 30%;
+}
+
+/* Make fields a bit tighter vertically for a denser Odoo‑style layout */
+.page-container[data-doctype="Bathroom Inspection"] .frappe-control {
+	margin-bottom: 0.4rem;
+}

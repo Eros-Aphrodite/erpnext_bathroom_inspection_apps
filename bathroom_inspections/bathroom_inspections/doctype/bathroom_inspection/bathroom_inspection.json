@@ -1,0 +1,638 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-03-03 00:03:27.491171",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "contact",
+  "phone",
+  "email",
+  "date",
+  "responsible",
+  "tags",
+  "status",
+  "section_demolition",
+  "dem_selection_label",
+  "dem_remove_shower_fittings_builder",
+  "dem_remove_shower_fittings_owner",
+  "dem_remove_shower_fittings_selection_1",
+  "dem_remove_shower_fittings_note",
+  "dem_remove_bathtub_builder",
+  "dem_remove_bathtub_owner",
+  "dem_remove_bathtub_selection_1",
+  "dem_remove_bathtub_note",
+  "dem_remove_vanity_builder",
+  "dem_remove_vanity_owner",
+  "dem_remove_vanity_selection_1",
+  "dem_remove_vanity_note",
+  "dem_remove_toilet_builder",
+  "dem_remove_toilet_owner",
+  "dem_remove_toilet_selection_1",
+  "dem_remove_toilet_note",
+  "dem_remove_shower_screen_builder",
+  "dem_remove_shower_screen_owner",
+  "dem_remove_shower_screen_selection",
+  "dem_remove_shower_screen_note",
+  "dem_remove_wall_tiles_builder",
+  "dem_remove_wall_tiles_owner",
+  "dem_remove_wall_tiles_selection",
+  "dem_remove_wall_tiles_substrate",
+  "dem_remove_wall_tiles_note",
+  "dem_remove_ceiling_builder",
+  "dem_remove_ceiling_owner",
+  "dem_remove_ceiling_selection",
+  "dem_remove_ceiling_substrate",
+  "dem_remove_ceiling_note",
+  "dem_remove_floor_tiles_builder",
+  "dem_remove_floor_tiles_owner",
+  "dem_remove_floor_tiles_selection",
+  "dem_remove_floor_tiles_substrate",
+  "dem_remove_floor_tiles_note",
+  "dem_cut_concrete_floor_builder",
+  "dem_cut_concrete_floor_owner",
+  "dem_cut_concrete_floor_selection",
+  "dem_cut_concrete_floor_note",
+  "dem_cut_concrete_wall_builder",
+  "dem_cut_concrete_wall_owner",
+  "dem_cut_concrete_wall_selection",
+  "dem_cut_concrete_wall_note",
+  "dem_remove_window_builder",
+  "dem_remove_window_owner",
+  "dem_remove_window_selection",
+  "dem_remove_window_note",
+  "dem_remove_door_builder",
+  "dem_remove_door_owner",
+  "dem_remove_door_selection",
+  "dem_remove_door_note",
+  "dem_remove_wall_make_opening_builder",
+  "dem_remove_wall_make_opening_owner",
+  "dem_remove_wall_make_opening_selection",
+  "dem_remove_wall_make_opening_width",
+  "dem_remove_wall_make_opening_length",
+  "dem_remove_wall_make_opening_door",
+  "dem_remove_wall_make_opening_note",
+  "dem_dig_new_services_builder",
+  "dem_dig_new_services_owner",
+  "dem_dig_new_services_new_toilet_100",
+  "dem_dig_new_services_new_vanity_50",
+  "dem_dig_new_services_new_bathtub_50",
+  "dem_dig_new_services_new_shower",
+  "dem_dig_new_services_note",
+  "dem_image_1",
+  "dem_image_2",
+  "dem_image_3",
+  "dem_image_4",
+  "dem_image_5",
+  "dem_image_6",
+  "tab_plumbing",
+  "tab_electrical",
+  "tab_carpentry",
+  "tab_plastering",
+  "tab_waterproofing",
+  "tab_tiler",
+  "tab_painter",
+  "tab_fixtures_bath_laundry",
+  "tab_glass_screen",
+  "tab_photos"
+ ],
+ "fields": [
+  {
+   "default": "BINS-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "BINS-.YYYY.-"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Link",
+   "label": "Responsible",
+   "options": "User"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "label": "Tags"
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "New\nIn Progress\nDone"
+  },
+  {
+   "fieldname": "section_demolition",
+   "fieldtype": "Section Break",
+   "label": "Demolition"
+  },
+  {
+   "fieldname": "dem_selection_label",
+   "fieldtype": "Data",
+   "label": "Selection",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_shower_fittings_builder",
+   "fieldtype": "Check",
+   "label": "Remove Shower Fittings - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_shower_fittings_owner",
+   "fieldtype": "Check",
+   "label": "Remove Shower Fittings - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_shower_fittings_selection_1",
+   "fieldtype": "Data",
+   "label": "Remove Shower Fittings - Selection 1"
+  },
+  {
+   "fieldname": "dem_remove_shower_fittings_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Shower Fittings - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_bathtub_builder",
+   "fieldtype": "Check",
+   "label": "Remove Bathtub - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_bathtub_owner",
+   "fieldtype": "Check",
+   "label": "Remove Bathtub - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_bathtub_selection_1",
+   "fieldtype": "Data",
+   "label": "Remove Bathtub - Selection 1"
+  },
+  {
+   "fieldname": "dem_remove_bathtub_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Bathtub - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_vanity_builder",
+   "fieldtype": "Check",
+   "label": "Remove Vanity - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_vanity_owner",
+   "fieldtype": "Check",
+   "label": "Remove Vanity - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_vanity_selection_1",
+   "fieldtype": "Data",
+   "label": "Remove Vanity - Selection 1"
+  },
+  {
+   "fieldname": "dem_remove_vanity_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Vanity - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_toilet_builder",
+   "fieldtype": "Check",
+   "label": "Remove Toilet - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_toilet_owner",
+   "fieldtype": "Check",
+   "label": "Remove Toilet - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_toilet_selection_1",
+   "fieldtype": "Data",
+   "label": "Remove Toilet - Selection 1"
+  },
+  {
+   "fieldname": "dem_remove_toilet_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Toilet - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_shower_screen_builder",
+   "fieldtype": "Check",
+   "label": "Remove Shower Screen - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_shower_screen_owner",
+   "fieldtype": "Check",
+   "label": "Remove Shower Screen - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_shower_screen_selection",
+   "fieldtype": "Data",
+   "label": "Remove Shower Screen - Selection"
+  },
+  {
+   "fieldname": "dem_remove_shower_screen_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Shower Screen - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_wall_tiles_builder",
+   "fieldtype": "Check",
+   "label": "Remove Wall Tiles - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_wall_tiles_owner",
+   "fieldtype": "Check",
+   "label": "Remove Wall Tiles - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_wall_tiles_selection",
+   "fieldtype": "Data",
+   "label": "Remove Wall Tiles - Selection"
+  },
+  {
+   "fieldname": "dem_remove_wall_tiles_substrate",
+   "fieldtype": "Data",
+   "label": "Remove Wall Tiles - Substrate"
+  },
+  {
+   "fieldname": "dem_remove_wall_tiles_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Wall Tiles - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_ceiling_builder",
+   "fieldtype": "Check",
+   "label": "Remove Ceiling - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_ceiling_owner",
+   "fieldtype": "Check",
+   "label": "Remove Ceiling - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_ceiling_selection",
+   "fieldtype": "Data",
+   "label": "Remove Ceiling - Selection"
+  },
+  {
+   "fieldname": "dem_remove_ceiling_substrate",
+   "fieldtype": "Data",
+   "label": "Remove Ceiling - Substrate"
+  },
+  {
+   "fieldname": "dem_remove_ceiling_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Ceiling - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_floor_tiles_builder",
+   "fieldtype": "Check",
+   "label": "Remove Floor Tiles - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_floor_tiles_owner",
+   "fieldtype": "Check",
+   "label": "Remove Floor Tiles - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_floor_tiles_selection",
+   "fieldtype": "Data",
+   "label": "Remove Floor Tiles - Selection"
+  },
+  {
+   "fieldname": "dem_remove_floor_tiles_substrate",
+   "fieldtype": "Data",
+   "label": "Remove Floor Tiles - Substrate"
+  },
+  {
+   "fieldname": "dem_remove_floor_tiles_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Floor Tiles - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_cut_concrete_floor_builder",
+   "fieldtype": "Check",
+   "label": "Cut Concrete Floor - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_cut_concrete_floor_owner",
+   "fieldtype": "Check",
+   "label": "Cut Concrete Floor - Owner?"
+  },
+  {
+   "fieldname": "dem_cut_concrete_floor_selection",
+   "fieldtype": "Data",
+   "label": "Cut Concrete Floor - Selection"
+  },
+  {
+   "fieldname": "dem_cut_concrete_floor_note",
+   "fieldtype": "Small Text",
+   "label": "Cut Concrete Floor - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_cut_concrete_wall_builder",
+   "fieldtype": "Check",
+   "label": "Cut Concrete Wall - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_cut_concrete_wall_owner",
+   "fieldtype": "Check",
+   "label": "Cut Concrete Wall - Owner?"
+  },
+  {
+   "fieldname": "dem_cut_concrete_wall_selection",
+   "fieldtype": "Data",
+   "label": "Cut Concrete Wall - Selection"
+  },
+  {
+   "fieldname": "dem_cut_concrete_wall_note",
+   "fieldtype": "Small Text",
+   "label": "Cut Concrete Wall - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_window_builder",
+   "fieldtype": "Check",
+   "label": "Remove Window - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_window_owner",
+   "fieldtype": "Check",
+   "label": "Remove Window - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_window_selection",
+   "fieldtype": "Data",
+   "label": "Remove Window - Selection"
+  },
+  {
+   "fieldname": "dem_remove_window_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Window - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_door_builder",
+   "fieldtype": "Check",
+   "label": "Remove Door - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_door_owner",
+   "fieldtype": "Check",
+   "label": "Remove Door - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_door_selection",
+   "fieldtype": "Data",
+   "label": "Remove Door - Selection"
+  },
+  {
+   "fieldname": "dem_remove_door_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Door - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_wall_make_opening_builder",
+   "fieldtype": "Check",
+   "label": "Remove Wall - Make New Opening - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_remove_wall_make_opening_owner",
+   "fieldtype": "Check",
+   "label": "Remove Wall - Make New Opening - Owner?"
+  },
+  {
+   "fieldname": "dem_remove_wall_make_opening_selection",
+   "fieldtype": "Data",
+   "label": "Remove Wall - Make New Opening - Selection"
+  },
+  {
+   "fieldname": "dem_remove_wall_make_opening_width",
+   "fieldtype": "Float",
+   "label": "Remove Wall - Make New Opening - Width"
+  },
+  {
+   "fieldname": "dem_remove_wall_make_opening_length",
+   "fieldtype": "Float",
+   "label": "Remove Wall - Make New Opening - Length"
+  },
+  {
+   "fieldname": "dem_remove_wall_make_opening_door",
+   "fieldtype": "Data",
+   "label": "Remove Wall - Make New Opening - Door"
+  },
+  {
+   "fieldname": "dem_remove_wall_make_opening_note",
+   "fieldtype": "Small Text",
+   "label": "Remove Wall - Make New Opening - Note"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_builder",
+   "fieldtype": "Check",
+   "label": "Digging for New Services - Builder?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_owner",
+   "fieldtype": "Check",
+   "label": "Digging for New Services - Owner?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_new_toilet_100",
+   "fieldtype": "Check",
+   "label": "New Toilet 100mm"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_new_vanity_50",
+   "fieldtype": "Check",
+   "label": "New Vanity 50mm"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_new_bathtub_50",
+   "fieldtype": "Check",
+   "label": "New Bathtub 50mm"
+  },
+  {
+   "default": "0",
+   "fieldname": "dem_dig_new_services_new_shower",
+   "fieldtype": "Check",
+   "label": "New Shower"
+  },
+  {
+   "fieldname": "dem_dig_new_services_note",
+   "fieldtype": "Small Text",
+   "label": "Digging for New Services - Note"
+  },
+  {
+   "fieldname": "dem_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "dem_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "dem_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "dem_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
+  },
+  {
+   "fieldname": "dem_image_5",
+   "fieldtype": "Attach Image",
+   "label": "New Image 5"
+  },
+  {
+   "fieldname": "dem_image_6",
+   "fieldtype": "Attach Image",
+   "label": "New Image 6"
+  },
+  {
+   "fieldname": "tab_plumbing",
+   "fieldtype": "Tab Break",
+   "label": "Plumbing"
+  },
+  {
+   "fieldname": "tab_electrical",
+   "fieldtype": "Tab Break",
+   "label": "Electrical"
+  },
+  {
+   "fieldname": "tab_carpentry",
+   "fieldtype": "Tab Break",
+   "label": "Carpentry"
+  },
+  {
+   "fieldname": "tab_plastering",
+   "fieldtype": "Tab Break",
+   "label": "Plastering"
+  },
+  {
+   "fieldname": "tab_waterproofing",
+   "fieldtype": "Tab Break",
+   "label": "Waterproofing"
+  },
+  {
+   "fieldname": "tab_tiler",
+   "fieldtype": "Tab Break",
+   "label": "Tiler"
+  },
+  {
+   "fieldname": "tab_painter",
+   "fieldtype": "Tab Break",
+   "label": "Painter"
+  },
+  {
+   "fieldname": "tab_fixtures_bath_laundry",
+   "fieldtype": "Tab Break",
+   "label": "Fixtures Bath/Laundry"
+  },
+  {
+   "fieldname": "tab_glass_screen",
+   "fieldtype": "Tab Break",
+   "label": "Glass Screen"
+  },
+  {
+   "fieldname": "tab_photos",
+   "fieldtype": "Tab Break",
+   "label": "Photos"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-03 00:03:27.491171",
+ "modified_by": "Administrator",
+ "module": "Bathroom Inspections",
+ "name": "Bathroom Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
