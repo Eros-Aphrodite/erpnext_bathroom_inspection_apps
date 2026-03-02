@@ -90,6 +90,49 @@
   "dem_image_5",
   "dem_image_6",
   "tab_plumbing",
+  "pl_shower_section",
+  "pl_shower_allowances",
+  "pl_shower_not_allowances",
+  "pl_shower_selection_1",
+  "pl_shower_selection_2",
+  "pl_shower_note",
+  "pl_bathtub_section",
+  "pl_bathtub_allowances",
+  "pl_bathtub_not_allowances",
+  "pl_bathtub_selection_1",
+  "pl_bathtub_selection_2",
+  "pl_bathtub_selection_3",
+  "pl_bathtub_note",
+  "pl_toilet_section",
+  "pl_toilet_allowances",
+  "pl_toilet_not_allowances",
+  "pl_toilet_selection",
+  "pl_toilet_work_selection",
+  "pl_toilet_note",
+  "pl_vanity_section",
+  "pl_vanity_allowances",
+  "pl_vanity_not_allowances",
+  "pl_vanity_selection_1",
+  "pl_vanity_selection_2",
+  "pl_vanity_selection_3",
+  "pl_vanity_note",
+  "pl_new_bath_prelim_section",
+  "pl_new_bath_prelim_allowances",
+  "pl_new_bath_prelim_drawings",
+  "pl_new_bath_prelim_certification",
+  "pl_new_bath_prelim_inspection",
+  "pl_new_bath_prelim_note",
+  "pl_new_bath_works_section",
+  "pl_new_bath_works_location_services",
+  "pl_new_bath_works_digging_for_new",
+  "pl_new_bath_works_install_pipe_line",
+  "pl_new_bath_works_cut_concrete",
+  "pl_new_bath_works_new_shower_vanity_toilet",
+  "pl_new_bath_works_new_shower_vanity_toilet_bathtub",
+  "pl_new_bath_works_new_toilet_only",
+  "pl_new_bath_works_new_shower_only",
+  "pl_new_bath_works_new_vanity_only",
+  "pl_new_bath_works_note",
   "tab_electrical",
   "tab_carpentry",
   "tab_plastering",
@@ -529,6 +572,221 @@
    "fieldname": "tab_plumbing",
    "fieldtype": "Tab Break",
    "label": "Plumbing"
+  },
+  {
+   "fieldname": "pl_shower_section",
+   "fieldtype": "Section Break",
+   "label": "Shower"
+  },
+  {
+   "fieldname": "pl_shower_allowances",
+   "fieldtype": "Check",
+   "label": "Allowances?"
+  },
+  {
+   "fieldname": "pl_shower_not_allowances",
+   "fieldtype": "Check",
+   "label": "Not Allowances?"
+  },
+  {
+   "fieldname": "pl_shower_selection_1",
+   "fieldtype": "Data",
+   "label": "Selection 1"
+  },
+  {
+   "fieldname": "pl_shower_selection_2",
+   "fieldtype": "Data",
+   "label": "Selection 2"
+  },
+  {
+   "fieldname": "pl_shower_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pl_bathtub_section",
+   "fieldtype": "Section Break",
+   "label": "Bathtub"
+  },
+  {
+   "fieldname": "pl_bathtub_allowances",
+   "fieldtype": "Check",
+   "label": "Allowances?"
+  },
+  {
+   "fieldname": "pl_bathtub_not_allowances",
+   "fieldtype": "Check",
+   "label": "Not Allowances?"
+  },
+  {
+   "fieldname": "pl_bathtub_selection_1",
+   "fieldtype": "Data",
+   "label": "Selection 1"
+  },
+  {
+   "fieldname": "pl_bathtub_selection_2",
+   "fieldtype": "Data",
+   "label": "Selection 2"
+  },
+  {
+   "fieldname": "pl_bathtub_selection_3",
+   "fieldtype": "Data",
+   "label": "Selection 3"
+  },
+  {
+   "fieldname": "pl_bathtub_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pl_toilet_section",
+   "fieldtype": "Section Break",
+   "label": "Toilet"
+  },
+  {
+   "fieldname": "pl_toilet_allowances",
+   "fieldtype": "Check",
+   "label": "Allowances?"
+  },
+  {
+   "fieldname": "pl_toilet_not_allowances",
+   "fieldtype": "Check",
+   "label": "Not Allowances?"
+  },
+  {
+   "fieldname": "pl_toilet_selection",
+   "fieldtype": "Data",
+   "label": "Selection"
+  },
+  {
+   "fieldname": "pl_toilet_work_selection",
+   "fieldtype": "Check",
+   "label": "Work Selection?"
+  },
+  {
+   "fieldname": "pl_toilet_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pl_vanity_section",
+   "fieldtype": "Section Break",
+   "label": "Vanity"
+  },
+  {
+   "fieldname": "pl_vanity_allowances",
+   "fieldtype": "Check",
+   "label": "Allowances?"
+  },
+  {
+   "fieldname": "pl_vanity_not_allowances",
+   "fieldtype": "Check",
+   "label": "Not Allowances?"
+  },
+  {
+   "fieldname": "pl_vanity_selection_1",
+   "fieldtype": "Data",
+   "label": "Selection 1"
+  },
+  {
+   "fieldname": "pl_vanity_selection_2",
+   "fieldtype": "Data",
+   "label": "Selection 2"
+  },
+  {
+   "fieldname": "pl_vanity_selection_3",
+   "fieldtype": "Data",
+   "label": "Selection 3"
+  },
+  {
+   "fieldname": "pl_vanity_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_section",
+   "fieldtype": "Section Break",
+   "label": "New Bathroom - Preliminaries"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_allowances",
+   "fieldtype": "Check",
+   "label": "Allowances?"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_drawings",
+   "fieldtype": "Check",
+   "label": "Drawings?"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_certification",
+   "fieldtype": "Check",
+   "label": "Certification?"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_inspection",
+   "fieldtype": "Check",
+   "label": "Inspection?"
+  },
+  {
+   "fieldname": "pl_new_bath_prelim_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pl_new_bath_works_section",
+   "fieldtype": "Section Break",
+   "label": "New Bathroom Works"
+  },
+  {
+   "fieldname": "pl_new_bath_works_location_services",
+   "fieldtype": "Check",
+   "label": "Location Services?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_digging_for_new",
+   "fieldtype": "Check",
+   "label": "Digging for New?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_install_pipe_line",
+   "fieldtype": "Check",
+   "label": "Install Pipe Line?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_cut_concrete",
+   "fieldtype": "Check",
+   "label": "Cut Concrete?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_new_shower_vanity_toilet",
+   "fieldtype": "Check",
+   "label": "New Shower - Vanity - Toilet?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_new_shower_vanity_toilet_bathtub",
+   "fieldtype": "Check",
+   "label": "New Shower - Vanity - Toilet & Bathtub?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_new_toilet_only",
+   "fieldtype": "Check",
+   "label": "New Toilet Only?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_new_shower_only",
+   "fieldtype": "Check",
+   "label": "New Shower Only?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_new_vanity_only",
+   "fieldtype": "Check",
+   "label": "New Vanity Only?"
+  },
+  {
+   "fieldname": "pl_new_bath_works_note",
+   "fieldtype": "Small Text",
+   "label": "Note"
   },
   {
    "fieldname": "plumbing_tab_placeholder",
