@@ -340,7 +340,13 @@
   "gs_frosted_glass",
   "gs_note_2",
   "gs_image_2",
-  "tab_photos"
+  "tab_photos",
+  "ph_image_1",
+  "ph_image_2",
+  "ph_image_3",
+  "ph_image_4",
+  "ph_image_5",
+  "ph_image_6"
  ],
  "fields": [
   {
@@ -2099,10 +2105,34 @@
    "label": "Photos"
   },
   {
-   "fieldname": "photos_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "ph_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "ph_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "ph_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "ph_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
+  },
+  {
+   "fieldname": "ph_image_5",
+   "fieldtype": "Attach Image",
+   "label": "New Image 5"
+  },
+  {
+   "fieldname": "ph_image_6",
+   "fieldtype": "Attach Image",
+   "label": "New Image 6"
   }
  ],
  "modified": "2026-03-01 00:00:00.000000",
