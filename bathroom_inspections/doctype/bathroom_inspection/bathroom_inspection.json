@@ -256,6 +256,26 @@
   "tl_image_3",
   "tl_image_4",
   "tab_painter",
+  "pnt_paint_walls",
+  "pnt_paint_walls_width",
+  "pnt_paint_walls_length",
+  "pnt_paint_walls_height",
+  "pnt_paint_door",
+  "pnt_paint_door_no",
+  "pnt_painting_labour_by",
+  "pnt_note_1",
+  "pnt_image_1",
+  "pnt_image_3",
+  "pnt_paint_ceiling",
+  "pnt_paint_ceiling_width",
+  "pnt_paint_ceiling_length",
+  "pnt_paint_ceiling_notes",
+  "pnt_paint_window",
+  "pnt_paint_window_no",
+  "pnt_paint_materials_by",
+  "pnt_note_2",
+  "pnt_image_2",
+  "pnt_image_4",
   "tab_fixtures_bath_laundry",
   "tab_glass_screen",
   "tab_photos"
@@ -1584,10 +1604,106 @@
    "label": "Painter"
   },
   {
-   "fieldname": "painter_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "pnt_paint_walls",
+   "fieldtype": "Check",
+   "label": "Paint Walls?"
+  },
+  {
+   "fieldname": "pnt_paint_walls_width",
+   "fieldtype": "Float",
+   "label": "Width"
+  },
+  {
+   "fieldname": "pnt_paint_walls_length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "pnt_paint_walls_height",
+   "fieldtype": "Float",
+   "label": "Height"
+  },
+  {
+   "fieldname": "pnt_paint_door",
+   "fieldtype": "Check",
+   "label": "Paint Door?"
+  },
+  {
+   "fieldname": "pnt_paint_door_no",
+   "fieldtype": "Float",
+   "label": "No:"
+  },
+  {
+   "fieldname": "pnt_painting_labour_by",
+   "fieldtype": "Select",
+   "label": "Painting Labour by",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "pnt_note_1",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pnt_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "pnt_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "pnt_paint_ceiling",
+   "fieldtype": "Check",
+   "label": "Paint Ceiling?"
+  },
+  {
+   "fieldname": "pnt_paint_ceiling_width",
+   "fieldtype": "Float",
+   "label": "Width"
+  },
+  {
+   "fieldname": "pnt_paint_ceiling_length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "pnt_paint_ceiling_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "pnt_paint_window",
+   "fieldtype": "Check",
+   "label": "Paint Window?"
+  },
+  {
+   "fieldname": "pnt_paint_window_no",
+   "fieldtype": "Float",
+   "label": "No:"
+  },
+  {
+   "fieldname": "pnt_paint_materials_by",
+   "fieldtype": "Select",
+   "label": "Paint Materials by",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "pnt_note_2",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pnt_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "pnt_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
   },
   {
    "fieldname": "tab_fixtures_bath_laundry",
