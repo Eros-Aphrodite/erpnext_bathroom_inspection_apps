@@ -134,7 +134,80 @@
   "pl_new_bath_works_new_vanity_only",
   "pl_new_bath_works_note",
   "tab_electrical",
+  "el_builder",
+  "el_owner",
+  "el_new_light_same_position",
+  "el_new_light_same_position_resource",
+  "el_new_heat_light_same_position",
+  "el_new_heat_light_same_position_resource",
+  "el_new_down_light",
+  "el_new_down_light_resource",
+  "el_new_mirror_with_light",
+  "el_new_mirror_with_light_resource",
+  "el_new_towel_dryer_rail",
+  "el_new_towel_dryer_rail_resource",
+  "el_new_power_point_same_position",
+  "el_new_power_point_vanity",
+  "el_new_power_point_vanity_resource",
+  "el_new_exhaust",
+  "el_new_exhaust_resource",
+  "el_new_switch",
+  "el_new_switch_resource",
+  "el_image_1",
+  "el_image_2",
+  "el_image_3",
+  "el_image_4",
   "tab_carpentry",
+  "ca_wall_framing",
+  "ca_wall_framing_resource",
+  "ca_install_villaboard",
+  "ca_install_villaboard_resource",
+  "ca_install_ceiling",
+  "ca_install_ceiling_resource",
+  "ca_install_niche",
+  "ca_install_niche_resource",
+  "ca_install_cavity_slider",
+  "ca_install_cavity_slider_resource",
+  "ca_install_benchtop",
+  "ca_install_benchtop_resource",
+  "ca_install_vanity_made_to_order",
+  "ca_install_vanity_made_to_order_resource",
+  "ca_install_barn_door",
+  "ca_install_barn_door_resource",
+  "ca_install_flight_screen",
+  "ca_install_flight_screen_resource",
+  "ca_install_folding_aluminum_window",
+  "ca_install_folding_aluminum_window_resource",
+  "ca_floor_framing",
+  "ca_floor_framing_resource",
+  "ca_install_aquacheck",
+  "ca_install_aquacheck_resource",
+  "ca_install_underlay",
+  "ca_install_underlay_resource",
+  "ca_install_window",
+  "ca_install_window_resource",
+  "ca_install_door",
+  "ca_install_door_resource",
+  "ca_install_shaving_cabinet",
+  "ca_install_shaving_cabinet_resource",
+  "ca_install_tall_boy",
+  "ca_install_tall_boy_resource",
+  "ca_install_security_screen",
+  "ca_install_security_screen_resource",
+  "ca_install_aluminum_slider",
+  "ca_install_aluminum_slider_resource",
+  "ca_install_folding_aluminum_door",
+  "ca_install_folding_aluminum_door_resource",
+  "ca_note_1",
+  "ca_note_2",
+  "ca_note_3",
+  "ca_note_4",
+  "ca_note_5",
+  "ca_note_6",
+  "ca_image_1",
+  "ca_image_2",
+  "ca_image_3",
+  "ca_image_4",
   "tab_plastering",
   "tab_waterproofing",
   "tab_tiler",
@@ -225,8 +298,9 @@
   },
   {
    "fieldname": "dem_remove_shower_fittings_selection_1",
-   "fieldtype": "Data",
-   "label": "Remove Shower Fittings - Selection 1"
+   "fieldtype": "Select",
+   "label": "Remove Shower Fittings - Selection 1",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo be Reused"
   },
   {
    "fieldname": "dem_remove_shower_fittings_note",
@@ -245,8 +319,9 @@
   },
   {
    "fieldname": "dem_remove_bathtub_selection_1",
-   "fieldtype": "Data",
-   "label": "Remove Bathtub - Selection 1"
+   "fieldtype": "Select",
+   "label": "Remove Bathtub - Selection 1",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo be Reused"
   },
   {
    "fieldname": "dem_remove_bathtub_note",
@@ -265,8 +340,9 @@
   },
   {
    "fieldname": "dem_remove_vanity_selection_1",
-   "fieldtype": "Data",
-   "label": "Remove Vanity - Selection 1"
+   "fieldtype": "Select",
+   "label": "Remove Vanity - Selection 1",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo be Reused"
   },
   {
    "fieldname": "dem_remove_vanity_note",
@@ -285,8 +361,9 @@
   },
   {
    "fieldname": "dem_remove_toilet_selection_1",
-   "fieldtype": "Data",
-   "label": "Remove Toilet - Selection 1"
+   "fieldtype": "Select",
+   "label": "Remove Toilet - New Selection",
+   "options": "Water Jet\nWater to laundry Connection"
   },
   {
    "fieldname": "dem_remove_toilet_note",
@@ -305,8 +382,9 @@
   },
   {
    "fieldname": "dem_remove_shower_screen_selection",
-   "fieldtype": "Data",
-   "label": "Remove Shower Screen - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Shower Screen - Selection",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo Be Reused"
   },
   {
    "fieldname": "dem_remove_shower_screen_note",
@@ -325,13 +403,15 @@
   },
   {
    "fieldname": "dem_remove_wall_tiles_selection",
-   "fieldtype": "Data",
-   "label": "Remove Wall Tiles - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Wall Tiles - Selection",
+   "options": "Applicable\nNot applicable\nBy Owner\nTo Be Reused"
   },
   {
    "fieldname": "dem_remove_wall_tiles_substrate",
-   "fieldtype": "Data",
-   "label": "Remove Wall Tiles - Substrate"
+   "fieldtype": "Select",
+   "label": "Remove Wall Tiles - Substrate",
+   "options": "Plasterboard\nFibre Cement\nAsbestos"
   },
   {
    "fieldname": "dem_remove_wall_tiles_note",
@@ -350,13 +430,15 @@
   },
   {
    "fieldname": "dem_remove_ceiling_selection",
-   "fieldtype": "Data",
-   "label": "Remove Ceiling - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Ceiling - Selection",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo Be Reused"
   },
   {
    "fieldname": "dem_remove_ceiling_substrate",
-   "fieldtype": "Data",
-   "label": "Remove Ceiling - Substrate"
+   "fieldtype": "Select",
+   "label": "Remove Ceiling - Substrate",
+   "options": "Plasterboard\nFibre Cement\nAsbestos"
   },
   {
    "fieldname": "dem_remove_ceiling_note",
@@ -375,8 +457,9 @@
   },
   {
    "fieldname": "dem_remove_floor_tiles_selection",
-   "fieldtype": "Data",
-   "label": "Remove Floor Tiles - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Floor Tiles - Selection",
+   "options": "Applicable\nNot Applicable\nBy Owner"
   },
   {
    "fieldname": "dem_remove_floor_tiles_substrate",
@@ -400,8 +483,9 @@
   },
   {
    "fieldname": "dem_cut_concrete_floor_selection",
-   "fieldtype": "Data",
-   "label": "Cut Concrete Floor - Selection"
+   "fieldtype": "Select",
+   "label": "Cut Concrete Floor - Selection",
+   "options": "Move drain\nDelete Service"
   },
   {
    "fieldname": "dem_cut_concrete_floor_note",
@@ -420,8 +504,9 @@
   },
   {
    "fieldname": "dem_cut_concrete_wall_selection",
-   "fieldtype": "Data",
-   "label": "Cut Concrete Wall - Selection"
+   "fieldtype": "Select",
+   "label": "Cut Concrete Wall - Selection",
+   "options": "Move Water Services Shower\nMove Water Services Vanity\nMove Water Services Toilet\nMove Water services Bathtub"
   },
   {
    "fieldname": "dem_cut_concrete_wall_note",
@@ -440,8 +525,9 @@
   },
   {
    "fieldname": "dem_remove_window_selection",
-   "fieldtype": "Data",
-   "label": "Remove Window - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Window - Selection",
+   "options": "Applicable\nNot Applicable\nBy owner\nTo Be Reused"
   },
   {
    "fieldname": "dem_remove_window_note",
@@ -460,8 +546,9 @@
   },
   {
    "fieldname": "dem_remove_door_selection",
-   "fieldtype": "Data",
-   "label": "Remove Door - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Door - Selection",
+   "options": "Applicable\nNot Applicable\nBy Owner\nTo Be Reused"
   },
   {
    "fieldname": "dem_remove_door_note",
@@ -480,8 +567,9 @@
   },
   {
    "fieldname": "dem_remove_wall_make_opening_selection",
-   "fieldtype": "Data",
-   "label": "Remove Wall - Make New Opening - Selection"
+   "fieldtype": "Select",
+   "label": "Remove Wall - Make New Opening - Selection",
+   "options": "Plasteboard\nTimber Frame\nConcrete Wall\nBrick Wall\nAsbestos"
   },
   {
    "fieldname": "dem_remove_wall_make_opening_width",
@@ -809,10 +897,127 @@
    "label": "Electrical"
   },
   {
-   "fieldname": "electrical_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "el_builder",
+   "fieldtype": "Check",
+   "label": "Builder?"
+  },
+  {
+   "fieldname": "el_owner",
+   "fieldtype": "Check",
+   "label": "Owner?"
+  },
+  {
+   "fieldname": "el_new_light_same_position",
+   "fieldtype": "Check",
+   "label": "New Light Same Position?"
+  },
+  {
+   "fieldname": "el_new_light_same_position_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_heat_light_same_position",
+   "fieldtype": "Check",
+   "label": "New Heat Light Same Position?"
+  },
+  {
+   "fieldname": "el_new_heat_light_same_position_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_down_light",
+   "fieldtype": "Check",
+   "label": "New Down Light?"
+  },
+  {
+   "fieldname": "el_new_down_light_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_mirror_with_light",
+   "fieldtype": "Check",
+   "label": "New Mirror with Light?"
+  },
+  {
+   "fieldname": "el_new_mirror_with_light_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_towel_dryer_rail",
+   "fieldtype": "Check",
+   "label": "New Towel dryer Rail?"
+  },
+  {
+   "fieldname": "el_new_towel_dryer_rail_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_power_point_same_position",
+   "fieldtype": "Check",
+   "label": "New Power Point Same Position?"
+  },
+  {
+   "fieldname": "el_new_power_point_vanity",
+   "fieldtype": "Check",
+   "label": "New Power Point Vanity?"
+  },
+  {
+   "fieldname": "el_new_power_point_vanity_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_exhaust",
+   "fieldtype": "Check",
+   "label": "New Exhaust?"
+  },
+  {
+   "fieldname": "el_new_exhaust_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_new_switch",
+   "fieldtype": "Check",
+   "label": "New Switch?"
+  },
+  {
+   "fieldname": "el_new_switch_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "el_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "el_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "el_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "el_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
   },
   {
    "fieldname": "tab_carpentry",
@@ -820,10 +1025,274 @@
    "label": "Carpentry"
   },
   {
-   "fieldname": "carpentry_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "ca_wall_framing",
+   "fieldtype": "Check",
+   "label": "Wall Framing"
+  },
+  {
+   "fieldname": "ca_wall_framing_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_villaboard",
+   "fieldtype": "Check",
+   "label": "Install Villaboard"
+  },
+  {
+   "fieldname": "ca_install_villaboard_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_ceiling",
+   "fieldtype": "Check",
+   "label": "Install Ceiling"
+  },
+  {
+   "fieldname": "ca_install_ceiling_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_niche",
+   "fieldtype": "Check",
+   "label": "Install Niche"
+  },
+  {
+   "fieldname": "ca_install_niche_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_cavity_slider",
+   "fieldtype": "Check",
+   "label": "Install Cavity Slider"
+  },
+  {
+   "fieldname": "ca_install_cavity_slider_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_benchtop",
+   "fieldtype": "Check",
+   "label": "Install Benchtop"
+  },
+  {
+   "fieldname": "ca_install_benchtop_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_vanity_made_to_order",
+   "fieldtype": "Check",
+   "label": "Install Vanity Made to Order"
+  },
+  {
+   "fieldname": "ca_install_vanity_made_to_order_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_barn_door",
+   "fieldtype": "Check",
+   "label": "Install Barn Door"
+  },
+  {
+   "fieldname": "ca_install_barn_door_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_flight_screen",
+   "fieldtype": "Check",
+   "label": "Install Flight Screen"
+  },
+  {
+   "fieldname": "ca_install_flight_screen_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_folding_aluminum_window",
+   "fieldtype": "Check",
+   "label": "Install Folding Aluminum Window"
+  },
+  {
+   "fieldname": "ca_install_folding_aluminum_window_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_floor_framing",
+   "fieldtype": "Check",
+   "label": "Floor Framing"
+  },
+  {
+   "fieldname": "ca_floor_framing_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_aquacheck",
+   "fieldtype": "Check",
+   "label": "Install Aquacheck"
+  },
+  {
+   "fieldname": "ca_install_aquacheck_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_underlay",
+   "fieldtype": "Check",
+   "label": "Install Underlay"
+  },
+  {
+   "fieldname": "ca_install_underlay_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_window",
+   "fieldtype": "Check",
+   "label": "Install Window"
+  },
+  {
+   "fieldname": "ca_install_window_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_door",
+   "fieldtype": "Check",
+   "label": "Install Door"
+  },
+  {
+   "fieldname": "ca_install_door_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_shaving_cabinet",
+   "fieldtype": "Check",
+   "label": "Install Shaving Cabinet"
+  },
+  {
+   "fieldname": "ca_install_shaving_cabinet_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_tall_boy",
+   "fieldtype": "Check",
+   "label": "Install Tall Boy"
+  },
+  {
+   "fieldname": "ca_install_tall_boy_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_security_screen",
+   "fieldtype": "Check",
+   "label": "Install Security Screen"
+  },
+  {
+   "fieldname": "ca_install_security_screen_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_aluminum_slider",
+   "fieldtype": "Check",
+   "label": "Install Aluminum Slider"
+  },
+  {
+   "fieldname": "ca_install_aluminum_slider_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_install_folding_aluminum_door",
+   "fieldtype": "Check",
+   "label": "Install Folding Aluminum Door"
+  },
+  {
+   "fieldname": "ca_install_folding_aluminum_door_resource",
+   "fieldtype": "Select",
+   "label": "Resource?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "ca_note_1",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_note_2",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_note_3",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_note_4",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_note_5",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_note_6",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "ca_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "ca_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "ca_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "ca_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
   },
   {
    "fieldname": "tab_plastering",
