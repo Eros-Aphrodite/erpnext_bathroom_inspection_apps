@@ -277,6 +277,54 @@
   "pnt_image_2",
   "pnt_image_4",
   "tab_fixtures_bath_laundry",
+  "fx_shower_head_single",
+  "fx_shower_head_double",
+  "fx_shower_tub_double",
+  "fx_mixer",
+  "fx_vanity_freestanding",
+  "fx_vanity_wall_hung",
+  "fx_vanity_length",
+  "fx_vanity_width",
+  "fx_vanity_mixer",
+  "fx_vanity_spout_mixer",
+  "fx_bathtub_framed",
+  "fx_bathtub_freestanding",
+  "fx_bathtub_length",
+  "fx_bathtub_width",
+  "fx_toilet_back_to_wall",
+  "fx_toilet_wall_insert",
+  "fx_laundry_cabinet",
+  "fx_laundry_wall_cabinet",
+  "fx_laundry_sink",
+  "fx_laundry_benchtop",
+  "fx_laundry_tall_boy",
+  "fx_laundry_made_to_order",
+  "fx_benchtop_stone",
+  "fx_benchtop_laminated",
+  "fx_laundry_mixer",
+  "fx_laundry_waste_pop_up",
+  "fx_shower_hook",
+  "fx_toilet_paper_holder",
+  "fx_towel_rail_single",
+  "fx_towel_rail_double",
+  "fx_shaving_cabinet",
+  "fx_shaving_cabinet_light",
+  "fx_supply_shower_rail",
+  "fx_supply_toilet_rail",
+  "fx_supply_mirror",
+  "fx_supply_mirror_light",
+  "fx_width_1",
+  "fx_height_1",
+  "fx_width_2",
+  "fx_height_2",
+  "fx_note_1",
+  "fx_note_2",
+  "fx_image_1",
+  "fx_image_2",
+  "fx_image_3",
+  "fx_image_4",
+  "fx_image_5",
+  "fx_image_6",
   "tab_glass_screen",
   "tab_photos"
  ],
@@ -1743,10 +1791,245 @@
    "label": "Fixtures Bath/Laundry"
   },
   {
-   "fieldname": "fixtures_bath_laundry_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "fx_shower_head_single",
+   "fieldtype": "Check",
+   "label": "Shower Head Single?"
+  },
+  {
+   "fieldname": "fx_shower_head_double",
+   "fieldtype": "Check",
+   "label": "Shower Head Double?"
+  },
+  {
+   "fieldname": "fx_shower_tub_double",
+   "fieldtype": "Check",
+   "label": "Shower Tub Double?"
+  },
+  {
+   "fieldname": "fx_mixer",
+   "fieldtype": "Check",
+   "label": "Mixer?"
+  },
+  {
+   "fieldname": "fx_vanity_freestanding",
+   "fieldtype": "Check",
+   "label": "Vanity Freestanding?"
+  },
+  {
+   "fieldname": "fx_vanity_wall_hung",
+   "fieldtype": "Check",
+   "label": "Vanity Wall Hung?"
+  },
+  {
+   "fieldname": "fx_vanity_length",
+   "fieldtype": "Float",
+   "label": "Length?"
+  },
+  {
+   "fieldname": "fx_vanity_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "fx_vanity_mixer",
+   "fieldtype": "Check",
+   "label": "Vanity Mixer?"
+  },
+  {
+   "fieldname": "fx_vanity_spout_mixer",
+   "fieldtype": "Select",
+   "label": "Vanity Spout & Mixer?",
+   "options": "Builder\nCustomer"
+  },
+  {
+   "fieldname": "fx_bathtub_framed",
+   "fieldtype": "Check",
+   "label": "Bathtub Framed?"
+  },
+  {
+   "fieldname": "fx_bathtub_freestanding",
+   "fieldtype": "Check",
+   "label": "Bathtub Freestanding?"
+  },
+  {
+   "fieldname": "fx_bathtub_length",
+   "fieldtype": "Float",
+   "label": "Length?"
+  },
+  {
+   "fieldname": "fx_bathtub_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "fx_toilet_back_to_wall",
+   "fieldtype": "Check",
+   "label": "Toilet Back to Wall?"
+  },
+  {
+   "fieldname": "fx_toilet_wall_insert",
+   "fieldtype": "Check",
+   "label": "Toilet Wall Insert?"
+  },
+  {
+   "fieldname": "fx_laundry_cabinet",
+   "fieldtype": "Check",
+   "label": "Laundry Cabinet?"
+  },
+  {
+   "fieldname": "fx_laundry_wall_cabinet",
+   "fieldtype": "Check",
+   "label": "Laundry Wall Cabinet?"
+  },
+  {
+   "fieldname": "fx_laundry_sink",
+   "fieldtype": "Check",
+   "label": "Laundry Sink?"
+  },
+  {
+   "fieldname": "fx_laundry_benchtop",
+   "fieldtype": "Check",
+   "label": "Laundry / Benchtop?"
+  },
+  {
+   "fieldname": "fx_laundry_tall_boy",
+   "fieldtype": "Check",
+   "label": "Laundry Tall Boy?"
+  },
+  {
+   "fieldname": "fx_laundry_made_to_order",
+   "fieldtype": "Check",
+   "label": "Laundry Made to Order?"
+  },
+  {
+   "fieldname": "fx_benchtop_stone",
+   "fieldtype": "Check",
+   "label": "Benchtop Stone?"
+  },
+  {
+   "fieldname": "fx_benchtop_laminated",
+   "fieldtype": "Check",
+   "label": "Benchtop Laminated?"
+  },
+  {
+   "fieldname": "fx_laundry_mixer",
+   "fieldtype": "Check",
+   "label": "Laundry Mixer?"
+  },
+  {
+   "fieldname": "fx_laundry_waste_pop_up",
+   "fieldtype": "Check",
+   "label": "Laundry Waste Pop Up?"
+  },
+  {
+   "fieldname": "fx_shower_hook",
+   "fieldtype": "Check",
+   "label": "Shower Hook?"
+  },
+  {
+   "fieldname": "fx_toilet_paper_holder",
+   "fieldtype": "Check",
+   "label": "Toilet Paper Holder?"
+  },
+  {
+   "fieldname": "fx_towel_rail_single",
+   "fieldtype": "Check",
+   "label": "Towel Rail Single?"
+  },
+  {
+   "fieldname": "fx_towel_rail_double",
+   "fieldtype": "Check",
+   "label": "Towel Rail Double?"
+  },
+  {
+   "fieldname": "fx_shaving_cabinet",
+   "fieldtype": "Check",
+   "label": "Shaving Cabinet?"
+  },
+  {
+   "fieldname": "fx_shaving_cabinet_light",
+   "fieldtype": "Check",
+   "label": "Shaving cabinet Light?"
+  },
+  {
+   "fieldname": "fx_supply_shower_rail",
+   "fieldtype": "Check",
+   "label": "Supply Shower Rail?"
+  },
+  {
+   "fieldname": "fx_supply_toilet_rail",
+   "fieldtype": "Check",
+   "label": "Supply Toilet Rail?"
+  },
+  {
+   "fieldname": "fx_supply_mirror",
+   "fieldtype": "Check",
+   "label": "Supply Mirror?"
+  },
+  {
+   "fieldname": "fx_supply_mirror_light",
+   "fieldtype": "Check",
+   "label": "Supply Mirror/Light?"
+  },
+  {
+   "fieldname": "fx_width_1",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "fx_height_1",
+   "fieldtype": "Float",
+   "label": "Height?"
+  },
+  {
+   "fieldname": "fx_width_2",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "fx_height_2",
+   "fieldtype": "Float",
+   "label": "Height?"
+  },
+  {
+   "fieldname": "fx_note_1",
+   "fieldtype": "Small Text",
+   "label": "Note?"
+  },
+  {
+   "fieldname": "fx_note_2",
+   "fieldtype": "Small Text",
+   "label": "Note?"
+  },
+  {
+   "fieldname": "fx_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "fx_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "fx_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "fx_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
+  },
+  {
+   "fieldname": "fx_image_5",
+   "fieldtype": "Attach Image",
+   "label": "New Image 5"
+  },
+  {
+   "fieldname": "fx_image_6",
+   "fieldtype": "Attach Image",
+   "label": "New Image 6"
   },
   {
    "fieldname": "tab_glass_screen",
