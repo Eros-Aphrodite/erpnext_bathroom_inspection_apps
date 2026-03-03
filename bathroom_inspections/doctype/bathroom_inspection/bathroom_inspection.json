@@ -209,6 +209,16 @@
   "ca_image_3",
   "ca_image_4",
   "tab_plastering",
+  "plst_set_joints_walls",
+  "plst_install_cornice",
+  "plst_render_to_walls",
+  "plst_note_1",
+  "plst_image_1",
+  "plst_set_joints_ceiling",
+  "plst_install_square_set",
+  "plst_install_hebel_to_level",
+  "plst_note_2",
+  "plst_image_2",
   "tab_waterproofing",
   "tab_tiler",
   "tab_painter",
@@ -1300,10 +1310,54 @@
    "label": "Plastering"
   },
   {
-   "fieldname": "plastering_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "plst_set_joints_walls",
+   "fieldtype": "Check",
+   "label": "Set Joints Walls"
+  },
+  {
+   "fieldname": "plst_install_cornice",
+   "fieldtype": "Check",
+   "label": "Install Cornice?"
+  },
+  {
+   "fieldname": "plst_render_to_walls",
+   "fieldtype": "Check",
+   "label": "Render to Walls?"
+  },
+  {
+   "fieldname": "plst_note_1",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "plst_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "plst_set_joints_ceiling",
+   "fieldtype": "Check",
+   "label": "Set Joints Ceiling"
+  },
+  {
+   "fieldname": "plst_install_square_set",
+   "fieldtype": "Check",
+   "label": "Install Square Set"
+  },
+  {
+   "fieldname": "plst_install_hebel_to_level",
+   "fieldtype": "Check",
+   "label": "Install Hebel to Level?"
+  },
+  {
+   "fieldname": "plst_note_2",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "plst_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
   },
   {
    "fieldname": "tab_waterproofing",
