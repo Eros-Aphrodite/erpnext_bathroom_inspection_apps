@@ -220,6 +220,11 @@
   "plst_note_2",
   "plst_image_2",
   "tab_waterproofing",
+  "wp_shower_area",
+  "wp_bedding_shower_area",
+  "wp_substrate",
+  "wp_floor_area",
+  "wp_bedding_floor_area",
   "tab_tiler",
   "tab_painter",
   "tab_fixtures_bath_laundry",
@@ -1365,10 +1370,30 @@
    "label": "Waterproofing"
   },
   {
-   "fieldname": "waterproofing_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "wp_shower_area",
+   "fieldtype": "Check",
+   "label": "Shower Area?"
+  },
+  {
+   "fieldname": "wp_bedding_shower_area",
+   "fieldtype": "Check",
+   "label": "Bedding Shower Area?"
+  },
+  {
+   "fieldname": "wp_substrate",
+   "fieldtype": "Select",
+   "label": "Substrate?",
+   "options": "FC Underlay\nConcrete"
+  },
+  {
+   "fieldname": "wp_floor_area",
+   "fieldtype": "Check",
+   "label": "Floor Area?"
+  },
+  {
+   "fieldname": "wp_bedding_floor_area",
+   "fieldtype": "Check",
+   "label": "Bedding Floor Area?"
   },
   {
    "fieldname": "tab_tiler",
