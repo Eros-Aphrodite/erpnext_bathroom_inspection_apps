@@ -326,6 +326,20 @@
   "fx_image_5",
   "fx_image_6",
   "tab_glass_screen",
+  "gs_screen_wall_to_wall",
+  "gs_screen_wall_to_wall_length",
+  "gs_single_screen",
+  "gs_single_screen_length",
+  "gs_special_order",
+  "gs_note_1",
+  "gs_image_1",
+  "gs_screen_enclose",
+  "gs_screen_enclose_length",
+  "gs_screen_bathtub",
+  "gs_screen_bathtub_length",
+  "gs_frosted_glass",
+  "gs_note_2",
+  "gs_image_2",
   "tab_photos"
  ],
  "fields": [
@@ -2005,10 +2019,79 @@
    "label": "Glass Screen"
   },
   {
-   "fieldname": "glass_screen_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "gs_screen_wall_to_wall",
+   "fieldtype": "Check",
+   "label": "Screen Wall to Wall ?"
+  },
+  {
+   "fieldname": "gs_screen_wall_to_wall_length",
+   "fieldtype": "Float",
+   "label": "Length: ?"
+  },
+  {
+   "fieldname": "gs_single_screen",
+   "fieldtype": "Select",
+   "label": "Single Screen ?",
+   "options": "Builder\nCustomer"
+  },
+  {
+   "fieldname": "gs_single_screen_length",
+   "fieldtype": "Float",
+   "label": "Length: ?"
+  },
+  {
+   "fieldname": "gs_special_order",
+   "fieldtype": "Select",
+   "label": "Special Order ?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "gs_note_1",
+   "fieldtype": "Small Text",
+   "label": "Note: ?"
+  },
+  {
+   "fieldname": "gs_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1 ?"
+  },
+  {
+   "fieldname": "gs_screen_enclose",
+   "fieldtype": "Select",
+   "label": "Screen Enclose ?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "gs_screen_enclose_length",
+   "fieldtype": "Float",
+   "label": "Length: ?"
+  },
+  {
+   "fieldname": "gs_screen_bathtub",
+   "fieldtype": "Select",
+   "label": "Screen Bathtub ?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "gs_screen_bathtub_length",
+   "fieldtype": "Float",
+   "label": "Length: ?"
+  },
+  {
+   "fieldname": "gs_frosted_glass",
+   "fieldtype": "Select",
+   "label": "Frosted Glass ?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "gs_note_2",
+   "fieldtype": "Small Text",
+   "label": "Note: ?"
+  },
+  {
+   "fieldname": "gs_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2 ?"
   },
   {
    "fieldname": "tab_photos",
