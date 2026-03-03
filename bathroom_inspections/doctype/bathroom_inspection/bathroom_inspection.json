@@ -226,6 +226,35 @@
   "wp_floor_area",
   "wp_bedding_floor_area",
   "tab_tiler",
+  "tl_shower_area_only",
+  "tl_shower_width",
+  "tl_shower_height",
+  "tl_skirt_to_perimeter_wall",
+  "tl_skirt_length",
+  "tl_feature_to_shower_wall",
+  "tl_feature_to_shower_wall_selection",
+  "tl_full_perimeter_height_wall_tiles",
+  "tl_floor_drain_long",
+  "tl_floor_tiles_resource",
+  "tl_floor_tiles_width",
+  "tl_floor_tiles_length",
+  "tl_silicone_to_floor",
+  "tl_floor_area",
+  "tl_floor_area_width",
+  "tl_floor_area_length",
+  "tl_niche_or_recess_tiles",
+  "tl_niche_width",
+  "tl_feature_to_vanity_wall",
+  "tl_feature_to_vanity_wall_selection",
+  "tl_splash_back_to_vanity",
+  "tl_floor_drain_square",
+  "tl_wall_tiles_resource",
+  "tl_new_decimal",
+  "tl_silicone_to_wall",
+  "tl_image_1",
+  "tl_image_2",
+  "tl_image_3",
+  "tl_image_4",
   "tab_painter",
   "tab_fixtures_bath_laundry",
   "tab_glass_screen",
@@ -1401,10 +1430,153 @@
    "label": "Tiler"
   },
   {
-   "fieldname": "tiler_tab_placeholder",
-   "fieldtype": "HTML",
-   "label": " ",
-   "options": "<div style=\"height: 1px\"></div>"
+   "fieldname": "tl_shower_area_only",
+   "fieldtype": "Check",
+   "label": "Shower Area only?"
+  },
+  {
+   "fieldname": "tl_shower_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "tl_shower_height",
+   "fieldtype": "Float",
+   "label": "Height?"
+  },
+  {
+   "fieldname": "tl_skirt_to_perimeter_wall",
+   "fieldtype": "Check",
+   "label": "Skirt to Perimeter Wall?"
+  },
+  {
+   "fieldname": "tl_skirt_length",
+   "fieldtype": "Float",
+   "label": "Length?"
+  },
+  {
+   "fieldname": "tl_feature_to_shower_wall",
+   "fieldtype": "Check",
+   "label": "Feature to Shower Wall?"
+  },
+  {
+   "fieldname": "tl_feature_to_shower_wall_selection",
+   "fieldtype": "Select",
+   "label": "Selection?",
+   "options": "Full wall\n1/2 Wall\nSplashBack"
+  },
+  {
+   "fieldname": "tl_full_perimeter_height_wall_tiles",
+   "fieldtype": "Check",
+   "label": "Full Perimeter Height Wall Tiles?"
+  },
+  {
+   "fieldname": "tl_floor_drain_long",
+   "fieldtype": "Check",
+   "label": "Floor Drain Long?"
+  },
+  {
+   "fieldname": "tl_floor_tiles_resource",
+   "fieldtype": "Select",
+   "label": "Floor Tiles?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "tl_floor_tiles_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "tl_floor_tiles_length",
+   "fieldtype": "Float",
+   "label": "Length?"
+  },
+  {
+   "fieldname": "tl_silicone_to_floor",
+   "fieldtype": "Check",
+   "label": "Silicone to Floor?"
+  },
+  {
+   "fieldname": "tl_floor_area",
+   "fieldtype": "Check",
+   "label": "Floor Area?"
+  },
+  {
+   "fieldname": "tl_floor_area_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "tl_floor_area_length",
+   "fieldtype": "Float",
+   "label": "Length?"
+  },
+  {
+   "fieldname": "tl_niche_or_recess_tiles",
+   "fieldtype": "Check",
+   "label": "Niche or Recess Tiles?"
+  },
+  {
+   "fieldname": "tl_niche_width",
+   "fieldtype": "Float",
+   "label": "Width?"
+  },
+  {
+   "fieldname": "tl_feature_to_vanity_wall",
+   "fieldtype": "Check",
+   "label": "Feature to Vanity Wall?"
+  },
+  {
+   "fieldname": "tl_feature_to_vanity_wall_selection",
+   "fieldtype": "Select",
+   "label": "Selection?",
+   "options": "Full Wall\n1/2 Walls\nSplashBack"
+  },
+  {
+   "fieldname": "tl_splash_back_to_vanity",
+   "fieldtype": "Check",
+   "label": "Splash Back to Vanity?"
+  },
+  {
+   "fieldname": "tl_floor_drain_square",
+   "fieldtype": "Check",
+   "label": "Floor Drain Square?"
+  },
+  {
+   "fieldname": "tl_wall_tiles_resource",
+   "fieldtype": "Select",
+   "label": "Wall Tiles?",
+   "options": "Supplier Builder\nSupplier Customer"
+  },
+  {
+   "fieldname": "tl_new_decimal",
+   "fieldtype": "Float",
+   "label": "New Decimal?"
+  },
+  {
+   "fieldname": "tl_silicone_to_wall",
+   "fieldtype": "Check",
+   "label": "Silicone to Wall?"
+  },
+  {
+   "fieldname": "tl_image_1",
+   "fieldtype": "Attach Image",
+   "label": "New Image 1"
+  },
+  {
+   "fieldname": "tl_image_2",
+   "fieldtype": "Attach Image",
+   "label": "New Image 2"
+  },
+  {
+   "fieldname": "tl_image_3",
+   "fieldtype": "Attach Image",
+   "label": "New Image 3"
+  },
+  {
+   "fieldname": "tl_image_4",
+   "fieldtype": "Attach Image",
+   "label": "New Image 4"
   },
   {
    "fieldname": "tab_painter",
